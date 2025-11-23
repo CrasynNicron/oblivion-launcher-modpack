@@ -14,18 +14,12 @@
       "javaVersion": 17,
 
     {
+ {
   "id": "oblivion-pack",
   "name": "Oblivion Pack",
-  "type": "zip",
+  "type": "file",
   "required": true,
-  
-  "group": "oblivion",
-  "artifact": "oblivion-pack",
-  "version": "1.0.0",
-
-  "url": "https://raw.githubusercontent.com/CrasynNicron/oblivion-launcher-modpack/main/maven/oblivion/oblivion-pack/1.0.0/oblivion-pack-1.0.0.zip",
-  
-  "subModules": []
+  "url": "https://raw.githubusercontent.com/CrasynNicron/oblivion-launcher-modpack/main/maven/oblivion/oblivion-pack/1.0.0/oblivion-pack-1.0.0.zip"
 }
       ]
     }
