@@ -13,16 +13,20 @@
       "minecraftVersion": "1.20.1",
       "javaVersion": 17,
 
-      "modules": [
-        {
-          "id": "oblivion-pack",
-          "name": "Oblivion Pack",
-          "type": "zip",
-          "required": true,
-          "url": "https://raw.githubusercontent.com/CrasynNicron/oblivion-launcher-modpack/main/maven/oblivion/oblivion-pack/1.0.0/oblivion-pack-1.0.0.zip",
-          "dest": ".",  
-          "subModules": []
-        }
+    {
+  "id": "oblivion-pack",
+  "name": "Oblivion Pack",
+  "type": "zip",
+  "required": true,
+  
+  "group": "oblivion",
+  "artifact": "oblivion-pack",
+  "version": "1.0.0",
+
+  "url": "https://raw.githubusercontent.com/CrasynNicron/oblivion-launcher-modpack/main/maven/oblivion/oblivion-pack/1.0.0/oblivion-pack-1.0.0.zip",
+  
+  "subModules": []
+}
       ]
     }
   ]
