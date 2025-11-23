@@ -2,22 +2,27 @@
   "id": "oblivion-smp",
   "version": "1.0.0",
   "minecraft": "1.20.1",
-  "forge": "47.4.0",
-  
-  "modules": [
-    {
-      "type": "modpack",
-      "id": "oblivion-pack",
-      "priority": 0,
-      "value": "https://github.com/CrasynNicron/oblivion-launcher-modpack/releases/download/v1.0.0/mods.zip"
-    }
-  ],
 
-  "files": [
-    { "path": "config/", "type": "folder" },
-    { "path": "shaderpacks/", "type": "folder" },
-    { "path": "resourcepacks/", "type": "folder" },
-    { "path": "kubejs/", "type": "folder" },
-    { "path": "emotes/", "type": "folder" }
+  "mainServer": "oblivion",
+
+  "servers": [
+    {
+      "id": "oblivion",
+      "name": "Oblivion SMP",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "javaVersion": 17,
+
+      "modules": [
+        {
+          "id": "oblivion-pack",
+          "name": "Oblivion Pack",
+          "type": "zip",
+          "required": true,
+          "url": "https://raw.githubusercontent.com/CrasynNicron/oblivion-launcher-modpack/main/maven/oblivion/oblivion-pack/1.0.0/oblivion-pack-1.0.0.zip",
+          "subModules": []
+        }
+      ]
+    }
   ]
 }
