@@ -3,7 +3,16 @@
   "version": "1.0.0",
   "minecraft": "1.20.1",
   "forge": "47.4.0",
-  "url": "https://github.com/CrasynNicron/oblivion-launcher-modpack/releases/download/v1.0.0/mods.zip",
+  
+  "modules": [
+    {
+      "type": "modpack",
+      "id": "oblivion-pack",
+      "priority": 0,
+      "value": "https://github.com/CrasynNicron/oblivion-launcher-modpack/releases/download/v1.0.0/mods.zip"
+    }
+  ],
+
   "files": [
     { "path": "config/", "type": "folder" },
     { "path": "shaderpacks/", "type": "folder" },
