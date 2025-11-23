@@ -14,7 +14,7 @@
         {
           "id": "oblivion-pack",
           "name": "Oblivion Pack",
-          "type": "file",
+          "type": "File",
           "required": true,
           "url": "https://raw.githubusercontent.com/CrasynNicron/oblivion-launcher-modpack/main/maven/oblivion/oblivion-pack/1.0.0/oblivion-pack-1.0.0.zip",
           "dest": "."
